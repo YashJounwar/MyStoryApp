@@ -1,0 +1,283 @@
+/* Navbar Component CSS */
+.navbar{
+    position: sticky;
+    background-color: white;
+    margin-top: 10px;
+    margin: 10px 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 
+    0 4px 8px 10px rgba(0, 0, 0, 0.1);
+    height: 15vh;
+    font-size: large;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.align{
+    display: flex;
+}
+
+
+#weatherimg{
+    width: 2rem;
+    height: 2rem;
+}
+
+.weathercard {
+    background-color: rgb(238, 64, 54);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .weather-icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  .temperature {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+  .description {
+    color: white;
+    margin-bottom: 2px;
+    padding-top: 10px;
+  }
+  .location {
+    font-size: 16px;
+    color: white;
+  }
+
+
+.logo{
+    position: relative;
+    padding: 0px 1rem 0px 2rem;
+    width: 4rem;
+    height: 4.5rem;
+}
+
+.list1{
+    margin-left: 2rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.list2{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: auto;
+    padding-right: 80px;
+}
+
+
+/* Main section for cards started */
+.mainSection{
+    background-color: white;
+    box-shadow: 
+    0 4px 8px 0px rgba(0, 0, 0, 0.1),
+    0 4px 6px 0px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    margin: 20px 20px 20px;
+    padding: 20px;
+    /* border: 2px solid rgb(238, 64, 54); */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    column-gap: 1rem;
+}
+
+/* small card */
+.mainSection .smallcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: min-content; */
+    text-align: left;
+}
+
+hr {
+    border: none; /* Remove default border */
+    border-top: 0.5px solid rgba(0, 0, 0, 0.41); /* Add your custom border style */
+    margin: 1em 0; /* Add spacing above and below the line */
+    width: 100%;
+}
+
+/* cardimage */
+.mainSection .smallcards .smallcard .cardimg{
+    position: relative;
+    width: 20rem;
+    height: 10rem ;
+}
+
+/* card Title */
+.mainSection .smallcards .smallcard .title{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+/* card Title Hover*/
+.mainSection .smallcards .smallcard .title:hover{
+    color: rgb(238, 64, 54);
+    cursor: pointer;
+
+}
+
+
+/* card Paragraph */
+.mainSection .smallcards .smallcard .paragraph{
+    align-self: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+                                /* Large Card */
+
+.mainSection .largecards .largecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+    text-align: left;
+}
+
+/* cardimage */
+.mainSection .largecards .largecard .cardimg{
+    position: relative;
+    width: 37rem;
+    height: 20rem ;
+}
+
+/* card Title */
+.mainSection .largecards .largecard .title{
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* card Title Hover*/
+.mainSection .largecards .largecard .title:hover{
+    color: rgb(238, 64, 54);;
+    cursor: pointer;
+
+}
+
+
+/* card Paragraph */
+.mainSection .largecards .largecard .paragraph{
+    align-self: flex-start;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* second main section */
+.spotlight{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+.spotlightsection{
+
+    margin: 0px 10rem 0px 20rem;
+}
+
+.spotlightfirstchild{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 1rem;
+    padding: 20px;
+    width: 20%;
+    margin: 0px 50px 0px 15rem;
+    /* border: 2px solid rgb(238, 64, 54); */
+}
+
+.col{
+    border: 3px solid rgb(238, 64, 54);
+    box-shadow: 
+    3px 4px 8px 2px rgba(0, 0, 0, 0.1),
+    3px 4px 6px 2px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+.col:hover{
+    background-color: rgb(237, 28, 36);
+    font-style: italic;
+    color:whitesmoke;
+    .coltitle{
+        color: whitesmoke;
+        cursor: pointer;
+    }
+    cursor: pointer;
+
+}
+
+.colimg{
+    width: 15rem;
+    height: auto;
+    margin-bottom: 5px;
+    transition: transform 0.3s; /* Add transition for smooth effect */
+    overflow: hidden; /* Hide the overflowed part of the image */
+
+
+}
+.colimg:hover{
+    transform: scale(1.1); /* Scale down the container on hover */
+    cursor: pointer;
+}
+
+
+.coltitle{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.colparagraph{
+    align-self: flex-start;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* footer */
+.footer{
+    margin: 1rem 0 0 0;
+    height: 4rem;
+    background-color: rgb(237, 28, 36);
+    padding-left: 20px;
+    /* font-weight: bold; */
+    font-size: large;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: whitesmoke;
+}

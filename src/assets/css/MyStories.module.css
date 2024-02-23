@@ -1,0 +1,32 @@
+.storyForm{
+    margin: 2rem 10rem 2rem 10rem;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.654);
+}
+.storytitle{
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 0 5px 0 ;
+}
+
+textarea::placeholder{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px;
+    padding-left: 5px;
+}
+
+input[type = "text"]{
+ background-color: rgb(237, 28, 36);
+}
+
+textarea{
+    background-color: rgb(237, 28, 36);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.save{
+    cursor: pointer;
+}

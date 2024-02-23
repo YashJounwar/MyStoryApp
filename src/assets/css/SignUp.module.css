@@ -1,0 +1,126 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(237, 28, 36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    padding: 1rem;
+  }
+  
+  .newslogo{
+      width: 6rem;
+      height: 3rem;
+  }
+  
+  .navItems{
+      margin-left: 20px;
+  }
+  
+  .loginItem{
+    margin-left: auto;
+  }
+  
+  .navbar a {
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+   .formContainer {
+    max-width: 400px;
+    margin: 10px auto;
+    background-color: rgb(237, 28, 36);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 20px;
+  }
+
+  .loginform{
+    margin-top: 60px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  label {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  input[type="text"], input[type="email"],input[type="password"], input[type="radio"],select{
+    background-color: rgb(237, 28, 36);
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus,input[type="password"]:focus, input[type="radio"]:focus{
+    border-style: none;
+    font-weight: bold;
+  }
+  
+  
+  
+  input[type="text"]::placeholder, input[type="email"]::placeholder,input[type="password"]::placeholder, input[type="radio"]::placeholder,select{
+    color: white;
+  }
+  
+  
+  input[type="radio"]:checked{
+    color: rgb(237, 28, 36);
+  }
+  
+  input{
+    color: white;
+  }
+  
+  select option{
+    margin-top: 20px;
+    border-radius: 2px;
+  }
+  
+  input,
+  select,
+  button {
+    margin-bottom: 2px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .Gender label {
+    margin-right: 10px;
+  }
+  
+  .submitbtn {
+    background-color: rgb(237, 28, 36);
+    color: #fff;
+    cursor: pointer;
+    width: 30%;
+    font-weight: bold;
+    align-self: center;
+  }
+  
+  .submitbtn:hover {
+    background-color: rgb(237, 28, 36);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .formContainer {
+      margin: 20px;
+      box-shadow: none;
+    }
+  }
+  
+  .error{
+    color: yellow;
+    font-size: smaller;
+    font-weight: bold;
+    margin-left: 6px;
+  }

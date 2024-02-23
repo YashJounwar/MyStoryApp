@@ -11,6 +11,9 @@
 # production
 /build
 
+# database
+/src/Database
+
 # misc
 .DS_Store
 .env.local
